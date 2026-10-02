@@ -126,7 +126,7 @@ details[open]>.expand-icon:after,details[open]>summary .expand-icon:after{transf
 .diagram-visible .diagram-circle{animation-play-state:running}
 .diagram-circle:after{content:"";position:absolute;inset:0;border-radius:50%;border:1px solid #c8d9b36e;opacity:0;transform:scale(.94);animation:diagram-halo 7.2s ease-out infinite paused}
 .diagram-visible .diagram-circle:after{animation-play-state:running}
-.diagram-center{animation:diagram-spark 4s ease-in-out infinite paused;transform-origin:center center}
+.diagram-center{animation:diagram-spark 4s ease-in-out infinite paused;transform-origin:center center;transform-box:fill-box}
 .diagram-visible .diagram-center{animation-play-state:running}
 @keyframes diagram-breathe{0%,9%,34%,100%{transform:scale(1);border-color:#adc3946b;opacity:.7}18%,27%{transform:scale(1.045);border-color:#c2d8a1;opacity:1;box-shadow:0 0 32px #b7cf9b27,inset 0 0 25px #b7cf9b12}}
 @keyframes diagram-halo{0%,10%,32%,100%{opacity:0;transform:scale(.96)}18%{opacity:.72;transform:scale(1.035)}27%{opacity:.28;transform:scale(1.08)}}
